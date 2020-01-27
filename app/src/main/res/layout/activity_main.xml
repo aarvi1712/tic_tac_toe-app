@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/txt1color"
     tools:context=".MainActivity" >
 
     <RelativeLayout
@@ -19,12 +20,18 @@
             android:id="@+id/player_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
             android:text="@string/player_1_0"
+            android:textStyle="italic"
+            android:textAllCaps="true"
             android:textSize="30sp"
             />
         <TextView
             android:id="@+id/player_2"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
             android:layout_width="wrap_content"
+            android:textAllCaps="true"
             android:layout_height="wrap_content"
             android:text="@string/player_2_0"
             android:textSize="30sp"
@@ -33,17 +40,16 @@
 
         <Button
             android:id="@+id/btn_reset"
-            android:layout_width="wrap_content"
+            android:layout_width="152dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-
-
-
-            android:layout_marginEnd="53dp"
+            android:layout_marginEnd="35dp"
             android:layout_marginBottom="2dp"
+
+            android:background="@drawable/custom_button"
             android:text="@string/reset"
-            android:textSize="25sp"
-            />
+            android:textColor="@color/txt1color"
+            android:textSize="25sp" />
 
     </RelativeLayout>
 
@@ -52,6 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+
         android:orientation="vertical">
 
         <LinearLayout
@@ -64,18 +71,28 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:textSize="60sp"/>
+                android:textSize="60sp"
+                android:textColor="@color/txt1color"
+
+                android:layout_margin="10sp"
+                android:background="@drawable/cross_button_shape"/>
             <Button
                 android:id="@+id/button_01"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:textColor="@color/txt1color"
+                android:layout_margin="10sp"
                 android:layout_height="match_parent"
+                android:background="@drawable/cross_button_shape"
                 android:textSize="60sp"/>
             <Button
                 android:id="@+id/button_02"
                 android:layout_width="0dp"
                 android:layout_weight="1"
+                android:layout_margin="10sp"
                 android:layout_height="match_parent"
+                android:background="@drawable/cross_button_shape"
+                android:textColor="@color/txt1color"
                 android:textSize="60sp"/>
 
 
@@ -85,24 +102,34 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+
             android:orientation="horizontal">
             <Button
                 android:id="@+id/button_10"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:textSize="60sp"/>
+                android:textSize="60sp"
+                android:layout_margin="10sp"
+                android:textColor="@color/txt1color"
+                android:background="@drawable/cross_button_shape"/>
             <Button
                 android:id="@+id/button_11"
+                android:textColor="@color/txt1color"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:textSize="60sp"/>
+                android:layout_margin="10sp"
+                android:textSize="60sp"
+                android:background="@drawable/cross_button_shape"/>
             <Button
                 android:id="@+id/button_12"
                 android:layout_width="0dp"
+                android:textColor="@color/txt1color"
                 android:layout_weight="1"
+                android:layout_margin="10sp"
                 android:layout_height="match_parent"
+                android:background="@drawable/cross_button_shape"
                 android:textSize="60sp"/>
 
 
@@ -112,24 +139,34 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
             <Button
                 android:id="@+id/button_20"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
+                android:background="@drawable/cross_button_shape"
+                android:layout_margin="10sp"
+                android:textColor="@color/txt1color"
                 android:textSize="60sp"/>
             <Button
                 android:id="@+id/button_21"
                 android:layout_width="0dp"
+                android:textColor="@color/txt1color"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:background="@drawable/cross_button_shape"
                 android:textSize="60sp"/>
             <Button
                 android:id="@+id/button_22"
                 android:layout_width="0dp"
+                android:textColor="@color/txt1color"
                 android:layout_weight="1"
+                android:layout_margin="10sp"
                 android:layout_height="match_parent"
+                android:background="@drawable/cross_button_shape"
                 android:textSize="60sp"/>
 
 
